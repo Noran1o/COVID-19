@@ -1,0 +1,326 @@
+body {
+    margin: 0;
+     padding-top: 80px;
+}
+
+
+.navbar {
+    padding: 20px 0;
+    background-color: white;
+}
+
+
+.navbar-brand {
+    font-size: 28px;
+    font-weight: bold;
+    color: #394f8a;
+}
+
+
+.nav-link {
+    color: #394f8a;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.nav-link:hover {
+    color: #2d3e70;
+}
+
+
+
+.dark-mode-btn {
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  padding: 8px 20px;
+  font-style: italic;
+  font-weight: bold;
+  cursor: pointer;
+}
+body.dark-mode {
+  background-color: #121212;
+  color: white;
+}
+
+body.dark-mode .navbar {
+  background-color: #000;
+}
+body.dark-mode .about-section {
+  background-color: #121212;
+  color: white;
+}
+
+body.dark-mode .symptoms-section {
+  background-color: #1e1e1e;
+  color: white;
+}
+
+body.dark-mode .prevention-section {
+  background-color: #1e1e1e;
+  color: white;
+}
+
+body.dark-mode .site-footer {
+  background-color: #000;
+}
+body.dark-mode .treatment-section {
+  background-color: #0d0d1a;
+}
+
+body.dark-mode .treatment-card {
+  background-color: #000;
+}
+
+.hero {
+    padding: 60px 0;
+}
+
+.hero h1 {
+    font-size: 42px;
+}
+
+.hero h1 span {
+    color: blue;
+}
+
+.hero p {
+    color: darkblue;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.7;
+}
+
+.about-text {
+  color: darkblue;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+.stats {
+    margin-top: 40px;
+}
+
+.stats h5 {
+    color: #8b2be2;
+}
+
+.stats span {
+    font-size: 30px;
+}
+
+.hero-image {
+    text-align: center;
+}
+
+.hero-image img {
+    max-width: 600px;
+}
+
+.trans-title {
+  color: #28a745;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.trans-text {
+  color: #14213d;
+  font-weight: bold;
+}
+
+.symptoms-section {
+  background-color: #eef1f8;
+  padding: 60px 0;
+}
+
+.symptoms-intro {
+  color: #2e7d32;
+  font-weight: bold;
+  font-size: 16px;
+}
+.symptoms-section img {
+  width: 100%;
+  max-width: 250px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.symptom-name {
+  color: #14213d;
+  font-weight: bold;
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.symptom-highlight {
+  color: #a4b400;
+  font-weight: bold;
+}
+
+.symptom-text {
+  color: #14213d;
+  font-weight: bold;
+}
+
+.prevention-section {
+  background-color: #eef1f8;
+  padding: 60px 0;
+  margin-top: 40px;
+}
+
+.prevention-intro {
+  color: #e91e8c;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.prevention-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.prevention-name {
+  color: #212529;
+  font-weight: normal;
+  font-size: 23px;
+  margin-top: 15px;
+}
+
+.prevention-text {
+  color: #2f5d9f;
+  font-weight: bold;
+  font-size: 17px;
+}
+.trans-subtitle{
+    color: rgb(168, 78, 45)
+}
+
+.treatment-section {
+  background-color: #4b4bc4;
+  padding: 60px 0;
+  color: white;
+}
+
+.treatment-subtitle {
+  color: white;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.treatment-heading {
+  color: white;
+  font-weight: bold;
+  padding-top: 7px;
+  font-size: 35px;
+
+}
+
+.treatment-text {
+  color: white;
+  font-weight: bold;
+  padding-top: 20px;
+  font-size: 19px;
+
+}
+
+.treatment-card {
+  background-color: #2d1b4e;
+  padding: 30px;
+  border-radius: 10px;
+  color: white;
+}
+
+.treatment-card-title {
+  font-style: italic;
+  color: white;
+}
+
+.treatment-card-text {
+  color: #e91e8c;
+  font-weight: bold;
+}
+
+.highlight-green {
+  color: #a4d400;
+  font-weight: bold;
+}
+
+.footer {
+  background-color: #1c2331;
+  color: white;
+  padding: 60px 0 30px;
+}
+
+.footer-logo {
+  color: white;
+  font-weight: bold;
+}
+
+.footer-text {
+  color: white;
+  font-size: 15px;
+}
+
+.footer-icons i {
+  font-size: 20px;
+  margin-right: 15px;
+}
+
+.footer-title {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.footer-link {
+  color: #e91e8c;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 18px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.footer-link:hover {
+  color: white;
+}
+
+.footer-line {
+  border-color: #444;
+}
+
+.footer-copyright {
+  color: #ccc;
+}
+
+.footer-disclaimer {
+  color: #ccc;
+  font-size: 14px;
+}
+.back-to-top {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background-color: black;
+  color: white;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  text-decoration: none;
+  
+}
+
+.back-to-top:hover {
+  background-color: #333;
+  color: white;
+}
